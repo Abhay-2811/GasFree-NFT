@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Cinzel', serif
+}
+body {
+  background-color: #fafafa;
+}
+.home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 70px 20px;
+}
+
+.heading {
+  font-size: 20px;
+  color: #2868ff;
+  font-weight: 500;
+  background-color: #e5ecfb;
+  padding: 20px 15px;
+  padding-top: 20px;
+  border-radius: 6px;
+  margin: 5px;
+}
+.heading__sec {
+  font-size: 65px;
+  font-weight: 500;
+  color: #000000;
+}
+.first {
+  margin-top: 40px;
+}
+.para {
+  margin: 50px;
+  max-width: 800px;
+  text-align: center;
+  color: #000c7c;
+  font-size: 22px;
+}
+.getStarted {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #2667ff;
+  color: white;
+  padding: 12px 35px;
+  margin: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 100;
+}
+.getStarted :hover{
+  color: white;
+}
+.arrowicon {
+  margin-left: 5px;
+}
+.icon {
+  font-size: 50px;
+}
+.card__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tri {
+  height: 70px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  z-index: -1;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.donut {
+  height: 175px;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  z-index: -1;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tri2 {
+  -webkit-animation-name: float-bob-x;
+  animation-name: float-bob-x;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  height: 350px;
+  position: absolute;
+  left: -10%;
+  top: 25%;
+  z-index: -1;
+}
+
+.thread {
+  -webkit-animation-name: float-bob-x;
+  animation-name: float-bob-x;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  height: 75px;
+  position: absolute;
+  right: 10%;
+  z-index: -1;
+}
+@keyframes float-bob-x {
+  0% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+  50% {
+    -webkit-transform: translateX(-10px);
+    transform: translateX(-10px);
+  }
+  100% {
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+  }
+}
+body {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    121deg,
+    rgba(251, 239, 228, 1) 15%,
+    rgba(255, 255, 255, 1) 41%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    121deg,
+    rgba(251, 239, 228, 1) 15%,
+    rgba(255, 255, 255, 1) 41%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    121deg,
+    rgba(251, 239, 228, 1) 15%,
+    rgba(255, 255, 255, 1) 41%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FBEFE4', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    121deg,
+    rgba(251, 239, 228, 1) 15%,
+    rgba(255, 255, 255, 1) 41%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    121deg,
+    rgba(251, 239, 228, 1) 15%,
+    rgba(255, 255, 255, 1) 41%
+  );
+}

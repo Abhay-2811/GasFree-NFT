@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family:'Delicious Handrawn';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:'Delicious Handrawn';
+}
+
+.font-link {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  
+}
